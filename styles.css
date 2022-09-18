@@ -37,12 +37,12 @@ body {
     height: auto;
     background-color: var(--White);
     box-shadow: 0px 0px 15px 0px var(--Grayish-blue);
-    border-radius: 20px;
+    border-radius: 15px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    padding: 1.5rem;
+    padding: 1rem;
     transition-property: box-shadow;
     transition-duration: 0.5s;
 }
@@ -51,10 +51,26 @@ body {
     box-shadow: 0px 0px 10px 10px var(--Grayish-blue);
 }
 
+.img-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: black;
+}
+
+.logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+}
+
+
+
 .qr-code__img {
     max-width: 100%;
     height: auto;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 
 .qr-code__heading {
@@ -68,7 +84,7 @@ body {
     color: var(--Grayish-blue);
     text-align: center;
     padding: 0 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
     font-size: 1.5rem;
     font-weight: 400;
 }
